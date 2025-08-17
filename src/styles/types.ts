@@ -14,9 +14,9 @@
         },
         "typography": {
           "label": {
-            "default": string,
-            "hover": string,
-            "active": string
+            "default": "object",
+            "hover": "object",
+            "active": "object"
           }
         }
       },
@@ -32,9 +32,9 @@
         },
         "typography": {
           "label": {
-            "default": string,
-            "hover": string,
-            "active": string
+            "default": "object",
+            "hover": "object",
+            "active": "object"
           }
         }
       },
@@ -50,9 +50,9 @@
         },
         "typography": {
           "label": {
-            "default": string,
-            "hover": string,
-            "active": string
+            "default": "object",
+            "hover": "object",
+            "active": "object"
           }
         }
       },
@@ -92,10 +92,10 @@
         },
         "typography": {
           "title": {
-            "default": string
+            "default": "object"
           },
           "text": {
-            "default": string
+            "default": "object"
           }
         },
         "icon": {
@@ -115,10 +115,10 @@
         },
         "typography": {
           "title": {
-            "default": string
+            "default": "object"
           },
           "text": {
-            "default": string
+            "default": "object"
           }
         }
       },
@@ -165,14 +165,14 @@
       "typography": {
         "label": {
           "sm": {
-            "default": string,
-            "hover": string,
-            "active": string
+            "default": "object",
+            "hover": "object",
+            "active": "object"
           },
           "md": {
-            "default": string,
-            "hover": string,
-            "active": string
+            "default": "object",
+            "hover": "object",
+            "active": "object"
           }
         }
       },
@@ -215,10 +215,10 @@
       "typography": {
         "label": {
           "md": {
-            "default": string
+            "default": "object"
           },
           "sm": {
-            "default": string
+            "default": "object"
           }
         }
       },
@@ -320,22 +320,22 @@
       "typography": {
         "lg": {
           "label": {
-            "default": string,
-            "muted": string
+            "default": "object",
+            "muted": "object"
           },
           "title": {
-            "default": string,
-            "muted": string
+            "default": "object",
+            "muted": "object"
           }
         },
         "sm": {
           "label": {
-            "default": string,
-            "muted": string
+            "default": "object",
+            "muted": "object"
           },
           "title": {
-            "default": string,
-            "muted": string
+            "default": "object",
+            "muted": "object"
           }
         }
       },
@@ -371,16 +371,16 @@
         },
         "typography": {
           "label": {
-            "default": string,
-            "hover": string,
-            "active": string,
-            "disabled": string
+            "default": "object",
+            "hover": "object",
+            "active": "object",
+            "disabled": "object"
           },
           "mobile": {
             "label": {
-              "default": string,
-              "hover": string,
-              "active": string
+              "default": "object",
+              "hover": "object",
+              "active": "object"
             }
           }
         },
@@ -612,16 +612,16 @@
         },
         "typography": {
           "label": {
-            "default": string,
-            "hover": string,
-            "active": string,
-            "disabled": string
+            "default": "object",
+            "hover": "object",
+            "active": "object",
+            "disabled": "object"
           },
           "mobile": {
             "label": {
-              "default": string,
-              "hover": string,
-              "active": string
+              "default": "object",
+              "hover": "object",
+              "active": "object"
             }
           }
         },
@@ -726,16 +726,16 @@
         },
         "typography": {
           "label": {
-            "default": string,
-            "hover": string,
-            "active": string,
-            "disabled": string
+            "default": "object",
+            "hover": "object",
+            "active": "object",
+            "disabled": "object"
           },
           "mobile": {
             "label": {
-              "default": string,
-              "hover": string,
-              "active": string
+              "default": "object",
+              "hover": "object",
+              "active": "object"
             }
           }
         },
@@ -808,16 +808,16 @@
         },
         "typography": {
           "label": {
-            "default": string,
-            "hover": string,
-            "active": string,
-            "disabled": string
+            "default": "object",
+            "hover": "object",
+            "active": "object",
+            "disabled": "object"
           },
           "mobile": {
             "label": {
-              "default": string,
-              "hover": string,
-              "active": string
+              "default": "object",
+              "hover": "object",
+              "active": "object"
             }
           }
         }
@@ -895,22 +895,22 @@
       },
       "typography": {
         "title": {
-          "default": string,
-          "hover": string,
-          "active": string,
-          "disabled": string
+          "default": "object",
+          "hover": "object",
+          "active": "object",
+          "disabled": "object"
         },
         "description": {
-          "default": string,
-          "hover": string,
-          "active": string,
-          "disabled": string
+          "default": "object",
+          "hover": "object",
+          "active": "object",
+          "disabled": "object"
         },
         "link": {
-          "default": string,
-          "hover": string,
-          "active": string,
-          "disabled": string
+          "default": "object",
+          "hover": "object",
+          "active": "object",
+          "disabled": "object"
         }
       },
       "primary": {
@@ -967,23 +967,23 @@
           }
         }
       },
-      "shadow": string,
+      "shadow": "object",
       "horizontal": {
         "radii": {
           "all": string
         },
         "typography": {
           "title": {
-            "default": string,
-            "hover": string,
-            "active": string,
-            "disabled": string
+            "default": "object",
+            "hover": "object",
+            "active": "object",
+            "disabled": "object"
           },
           "description": {
-            "default": string,
-            "hover": string,
-            "active": string,
-            "disabled": string
+            "default": "object",
+            "hover": "object",
+            "active": "object",
+            "disabled": "object"
           }
         },
         "icon": {
@@ -1059,7 +1059,7 @@
         },
         "typography": {
           "text": {
-            "default": string
+            "default": "object"
           }
         },
         "space": {
@@ -1110,10 +1110,10 @@
       },
       "typography": {
         "label": {
-          "default": string,
-          "hover": string,
-          "active": string,
-          "disabled": string
+          "default": "object",
+          "hover": "object",
+          "active": "object",
+          "disabled": "object"
         }
       },
       "color": {
@@ -1303,7 +1303,7 @@
       "stroke": string,
       "typography": {
         "text": {
-          "default": string
+          "default": "object"
         }
       },
       "numbers": {
@@ -1375,7 +1375,7 @@
       "stroke": string,
       "typography": {
         "text": {
-          "default": string
+          "default": "object"
         }
       },
       "radii": {
@@ -1431,11 +1431,11 @@
         },
         "typography": {
           "label": {
-            "default": string,
-            "hover": string,
-            "active": string,
-            "disabled": string,
-            "range": string
+            "default": "object",
+            "hover": "object",
+            "active": "object",
+            "disabled": "object",
+            "range": "object"
           }
         },
         "color": {
@@ -1467,10 +1467,10 @@
       },
       "typography": {
         "daytitle": {
-          "default": string
+          "default": "object"
         },
         "title": {
-          "default": string
+          "default": "object"
         }
       },
       "color": {
@@ -1497,17 +1497,17 @@
         "all": string
       },
       "shadow": {
-        "default": string
+        "default": "object"
       },
       "stroke": {
-        "default": string
+        "default": "object"
       },
       "typography": {
         "title": {
-          "default": string
+          "default": "object"
         },
         "description": {
-          "default": string
+          "default": "object"
         }
       },
       "color": {
@@ -1528,25 +1528,25 @@
     "docs": {
       "typography": {
         "titles": {
-          "lg": string,
-          "md": string,
-          "sm": string
+          "lg": "object",
+          "md": "object",
+          "sm": "object"
         },
         "text": {
-          "default": string
+          "default": "object"
         },
         "breadcrumbs": {
-          "default": string,
-          "active": string
+          "default": "object",
+          "active": "object"
         },
         "toc": {
           "title": {
-            "default": string
+            "default": "object"
           },
           "item": {
-            "default": string,
-            "hover": string,
-            "active": string
+            "default": "object",
+            "hover": "object",
+            "active": "object"
           }
         }
       }
@@ -1554,41 +1554,41 @@
     "field": {
       "typography": {
         "label": {
-          "default": string,
-          "hover": string,
-          "active": string,
-          "disabled": string,
-          "error": string
+          "default": "object",
+          "hover": "object",
+          "active": "object",
+          "disabled": "object",
+          "error": "object"
         },
         "fieldText": {
-          "default": string,
-          "hover": string,
-          "active": string,
-          "disabled": string,
-          "error": string
+          "default": "object",
+          "hover": "object",
+          "active": "object",
+          "disabled": "object",
+          "error": "object"
         },
         "placeholder": {
-          "default": string
+          "default": "object"
         },
         "format": {
-          "default": string,
-          "hover": string,
-          "active": string,
-          "disabled": string,
-          "error": string
+          "default": "object",
+          "hover": "object",
+          "active": "object",
+          "disabled": "object",
+          "error": "object"
         },
         "genericLabel": {
-          "default": string,
-          "hover": string,
-          "active": string,
-          "disabled": string,
-          "error": string
+          "default": "object",
+          "hover": "object",
+          "active": "object",
+          "disabled": "object",
+          "error": "object"
         }
       },
       "type": {
         "mobile": {
-          "label": string,
-          "field-value": string
+          "label": "object",
+          "field-value": "object"
         }
       },
       "space": {
@@ -1702,10 +1702,10 @@
       },
       "typography": {
         "title": {
-          "default": string
+          "default": "object"
         },
         "description": {
-          "default": string
+          "default": "object"
         }
       },
       "hasFile": {
@@ -1776,8 +1776,8 @@
         }
       },
       "shadow": {
-        "default": string,
-        "reverse": string
+        "default": "object",
+        "reverse": "object"
       },
       "size": {
         "default": {
@@ -1800,18 +1800,18 @@
       "typography": {
         "default": {
           "description": {
-            "default": string
+            "default": "object"
           },
           "title": {
-            "default": string
+            "default": "object"
           }
         },
         "inline": {
           "description": {
-            "default": string
+            "default": "object"
           },
           "title": {
-            "default": string
+            "default": "object"
           }
         }
       },
@@ -1848,19 +1848,19 @@
         },
         "typography": {
           "label": {
-            "default": string,
-            "hover": string,
-            "active": string,
-            "disabled": string
+            "default": "object",
+            "hover": "object",
+            "active": "object",
+            "disabled": "object"
           },
           "sectionHeader": {
-            "default": string
+            "default": "object"
           },
           "subtext": {
-            "default": string,
-            "hover": string,
-            "active": string,
-            "disabled": string
+            "default": "object",
+            "hover": "object",
+            "active": "object",
+            "disabled": "object"
           }
         },
         "two-lines": {
@@ -1908,8 +1908,8 @@
       "itemCustom": {
         "typography": {
           "label": {
-            "sm": string,
-            "lg": string
+            "sm": "object",
+            "lg": "object"
           }
         }
       },
@@ -1920,9 +1920,9 @@
         },
         "typography": {
           "label": {
-            "default": string,
-            "hover": string,
-            "active": string
+            "default": "object",
+            "hover": "object",
+            "active": "object"
           }
         },
         "color": {
@@ -1942,7 +1942,7 @@
           "all": string
         },
         "shadow": {
-          "default": string
+          "default": "object"
         },
         "size": {
           "height": string
@@ -1960,21 +1960,21 @@
         "typography": {
           "results": {
             "label": {
-              "default": string
+              "default": "object"
             }
           },
           "search": {
             "placeholder": {
-              "default": string
+              "default": "object"
             },
             "term": {
-              "default": string
+              "default": "object"
             }
           }
         },
         "search": {
           "stroke": {
-            "default": string
+            "default": "object"
           }
         },
         "color": {
@@ -2033,7 +2033,7 @@
           }
         },
         "title": {
-          "default": string
+          "default": "object"
         }
       },
       "body": {
@@ -2066,7 +2066,7 @@
       },
       "cell": {
         "text": {
-          "default": string
+          "default": "object"
         }
       },
       "radii": {
@@ -2225,10 +2225,10 @@
         "lg": string
       },
       "stroke": {
-        "default": string
+        "default": "object"
       },
       "shadow": {
-        "default": string
+        "default": "object"
       },
       "space": {
         "y": {
@@ -2277,7 +2277,7 @@
         "all": string
       },
       "shadow": {
-        "default": string
+        "default": "object"
       },
       "icon": {
         "size": {
@@ -2302,10 +2302,10 @@
       },
       "typography": {
         "label": {
-          "default": string,
-          "hover": string,
-          "active": string,
-          "disabled": string
+          "default": "object",
+          "hover": "object",
+          "active": "object",
+          "disabled": "object"
         }
       },
       "color": {
@@ -2382,16 +2382,16 @@
             }
           },
           "typography": {
-            "default": string,
-            "hover": string,
-            "active": string,
-            "disabled": string
+            "default": "object",
+            "hover": "object",
+            "active": "object",
+            "disabled": "object"
           },
           "mobile": {
             "typography": {
-              "default": string,
-              "hover": string,
-              "active": string
+              "default": "object",
+              "hover": "object",
+              "active": "object"
             },
             "space": {
               "left": string,
@@ -2420,10 +2420,10 @@
         },
         "title": {
           "typography": {
-            "default": string,
-            "hover": string,
-            "active": string,
-            "disabled": string
+            "default": "object",
+            "hover": "object",
+            "active": "object",
+            "disabled": "object"
           }
         },
         "subItem": {
@@ -2442,19 +2442,19 @@
               "gap": string
             },
             "typography": {
-              "default": string,
-              "hover": string,
-              "active": string
+              "default": "object",
+              "hover": "object",
+              "active": "object"
             }
           },
           "radii": {
             "all": string
           },
           "typography": {
-            "default": string,
-            "hover": string,
-            "active": string,
-            "disabled": string
+            "default": "object",
+            "hover": "object",
+            "active": "object",
+            "disabled": "object"
           }
         },
         "dragControl": {
@@ -2635,13 +2635,13 @@
           },
           "typography": {
             "title": {
-              "default": string
+              "default": "object"
             }
           },
           "step": {
             "typography": {
               number: {
-                "default": string
+                "default": "object"
               }
             },
             "size": {
@@ -2748,7 +2748,7 @@
           },
           "typography": {
             "title": {
-              "default": string
+              "default": "object"
             }
           },
           "content": {
@@ -2787,10 +2787,10 @@
       },
       "typography": {
         "label": {
-          "default": string,
-          "hover": string,
-          "active": string,
-          "disabled": string
+          "default": "object",
+          "hover": "object",
+          "active": "object",
+          "disabled": "object"
         }
       },
       "color": {
@@ -2814,7 +2814,7 @@
     "table": {
       "header": {
         "title": {
-          "default": string
+          "default": "object"
         },
         "cell": {
           "space": {
@@ -2852,10 +2852,10 @@
       },
       "cell": {
         "text": {
-          "default": string
+          "default": "object"
         },
         "label": {
-          "default": string
+          "default": "object"
         },
         "stroke": string
       },
@@ -2932,9 +2932,9 @@
       },
       "typography": {
         "label": {
-          "default": string,
-          "hover": string,
-          "active": string
+          "default": "object",
+          "hover": "object",
+          "active": "object"
         }
       },
       "basic": {
@@ -2979,9 +2979,9 @@
         },
         "typography": {
           "label": {
-            "default": string,
-            "hover": string,
-            "active": string
+            "default": "object",
+            "hover": "object",
+            "active": "object"
           }
         },
         "radii": {
@@ -3030,13 +3030,13 @@
       "radii": {
         "all": string
       },
-      "shadow": string,
+      "shadow": "object",
       "typography": {
         "title": {
-          "default": string
+          "default": "object"
         },
         "description": {
-          "default": string
+          "default": "object"
         }
       },
       "size": {
@@ -3070,7 +3070,7 @@
       },
       "typography": {
         "label": {
-          "default": string
+          "default": "object"
         }
       },
       "color": {
@@ -3094,12 +3094,12 @@
           "default": string
         },
         "stroke": {
-          "default": string,
+          "default": "object",
           "element": {
-            "default": string
+            "default": "object"
           },
-          "hover": string,
-          "selected": string
+          "hover": "object",
+          "selected": "object"
         },
         "element": {
           "radii": {
@@ -3111,22 +3111,22 @@
         },
         "typography": {
           "title": {
-            "default": string
+            "default": "object"
           },
           "description": {
             "default": {
-              "default": string
+              "default": "object"
             }
           },
           "label": {
             "default": {
-              "default": string
+              "default": "object"
             }
           }
         },
         "shadow": {
           "default": string,
-          "hover": string
+          "hover": "object"
         },
         "size": {
           "icon": {
@@ -3666,67 +3666,67 @@
         "base": string
       },
       "line-height": {
-        "1": number,
-        "2": number,
-        "3": number,
-        "4": number
+        "1": string,
+        "2": string,
+        "3": string,
+        "4": string
       }
     },
     "styles": {
       "product": {
         "titles": {
-          "xs": string,
-          "sm": string,
-          "md": string,
-          "lg": string,
-          "xl": string,
-          "2xl": string
+          "xs": "object",
+          "sm": "object",
+          "md": "object",
+          "lg": "object",
+          "xl": "object",
+          "2xl": "object"
         },
         "text": {
           "normal": {
-            "xs": string,
-            "sm": string,
-            "md": string,
-            "lg": string
+            "xs": "object",
+            "sm": "object",
+            "md": "object",
+            "lg": "object"
           },
           "medium": {
-            "xs": string,
-            "sm": string,
-            "md": string,
-            "lg": string
+            "xs": "object",
+            "sm": "object",
+            "md": "object",
+            "lg": "object"
           },
           "semibold": {
-            "xs": string,
-            "sm": string,
-            "md": string,
-            "lg": string
+            "xs": "object",
+            "sm": "object",
+            "md": "object",
+            "lg": "object"
           },
           "mono": {
-            "xs": string,
-            "sm": string,
-            "md": string,
-            "lg": string
+            "xs": "object",
+            "sm": "object",
+            "md": "object",
+            "lg": "object"
           },
           "bold": {
-            "xs": string,
-            "sm": string,
-            "md": string,
-            "lg": string
+            "xs": "object",
+            "sm": "object",
+            "md": "object",
+            "lg": "object"
           }
         }
       },
       "brand": {
         "titles": {
-          "xs": string,
-          "sm": string,
-          "md": string,
-          "lg": string,
-          "xl": string,
-          "2xl": string
+          "xs": "object",
+          "sm": "object",
+          "md": "object",
+          "lg": "object",
+          "xl": "object",
+          "2xl": "object"
         }
       },
       "field": {
-        "md": string
+        "md": "object"
       }
     }
   },
@@ -3755,11 +3755,11 @@
     "8": string
   },
   "shadow": {
-    "1": string,
-    "2": string,
-    "3": string,
-    "4": string,
-    "5": string
+    "1": "object",
+    "2": "object",
+    "3": "object",
+    "4": "object",
+    "5": "object"
   },
   "breakpoint": {
     "sizes": {

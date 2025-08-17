@@ -12,28 +12,28 @@
           "primary": {
             "background": {
               "default": "#FFC029",
-              "hover": "lch(89.3 45.8 82.1)",
-              "active": "rgb(93.2% 79.3% 49.6%)"
+              "hover": "lch(89.332 45.83 82.081)",
+              "active": "lch(89.332 45.83 82.081)"
             },
             "text": {
               "default": "#151515"
             },
             "stroke": {
               "default": "#FFC029",
-              "hover": "lch(89.3 45.8 82.1)",
-              "active": "rgb(93.2% 79.3% 49.6%)"
+              "hover": "lch(89.332 45.83 82.081)",
+              "active": "lch(89.332 45.83 82.081)"
             }
           },
           "secondary": {
             "background": {
               "default": "rgba(0,0,0,0)",
               "hover": "#f6f7fa",
-              "active": "lch(95.3 1.54 272)"
+              "active": "lch(95.274 1.5364 271.98)"
             },
             "stroke": {
               "default": "#e6e7e9",
               "hover": "#e6e7e9",
-              "active": "rgb(81% 82.1% 83.6%)"
+              "active": "#cccfd3"
             },
             "text": {
               "default": "#161517"
@@ -41,9 +41,9 @@
           },
           "danger": {
             "background": {
-              "default": "rgb(100% 13.7% 13.7% / 0.1)",
-              "hover": "rgb(100% 59.6% 59.6% / 0.2)",
-              "active": "rgb(100% 72.9% 72.9% / 0.3)"
+              "default": "rgb(100% 13.725% 13.725% / 0.1)",
+              "hover": "rgb(100% 59.608% 59.608% / 0.2)",
+              "active": "rgb(100% 72.941% 72.941% / 0.3)"
             },
             "text": {
               "default": "#c10000"
@@ -90,12 +90,12 @@
             "background": {
               "default": "rgba(0,0,0,0)",
               "hover": "#f6f7fa",
-              "active": "rgb(86.8% 87.2% 88.2%)"
+              "active": "rgb(86.824% 87.176% 88.235%)"
             },
             "stroke": {
               "default": "#e6e7e9",
               "hover": "#e6e7e9",
-              "active": "rgb(86.8% 87.2% 88.2%)"
+              "active": "rgb(86.824% 87.176% 88.235%)"
             },
             "text": {
               "default": "#161517",
@@ -106,13 +106,13 @@
           "secondary": {
             "background": {
               "default": "#FFC029",
-              "hover": "lch(89.3 45.8 82.1)",
-              "active": "lch(79.1 40.8 82.1)"
+              "hover": "lch(89.332 45.83 82.081)",
+              "active": "lch(84.865 43.539 82.081)"
             },
             "stroke": {
               "default": "rgba(0,0,0,0)",
-              "hover": "lch(89.3 45.8 82.1)",
-              "active": "lch(79.1 40.8 82.1)"
+              "hover": "lch(89.332 45.83 82.081)",
+              "active": "lch(84.865 43.539 82.081)"
             },
             "text": {
               "default": "#151515",
@@ -130,7 +130,7 @@
           },
           "danger": {
             "background": {
-              "default": "rgb(100% 13.7% 13.7% / 0.1)",
+              "default": "rgb(100% 13.725% 13.725% / 0.1)",
               "hover": "#ff9898",
               "active": "#ffbaba"
             },
@@ -140,9 +140,9 @@
               "active": "#c10000"
             },
             "stroke": {
-              "default": "rgb(100% 13.7% 13.7% / 0.1)",
-              "hover": "rgb(100% 59.6% 59.6% / 0.2)",
-              "active": "rgb(100% 72.9% 72.9% / 0.3)"
+              "default": "rgb(100% 13.725% 13.725% / 0.1)",
+              "hover": "rgb(100% 59.608% 59.608% / 0.2)",
+              "active": "rgb(100% 72.941% 72.941% / 0.3)"
             }
           },
           "ghost": {
@@ -164,7 +164,7 @@
           },
           "info": {
             "background": {
-              "default": "rgb(26.3% 49.4% 93.7% / 0.1)",
+              "default": "rgb(26.275% 49.412% 93.725% / 0.1)",
               "hover": "#D0DFFB",
               "active": "#A1BEF7"
             },
@@ -174,7 +174,7 @@
               "active": "#437EEF"
             },
             "stroke": {
-              "default": "rgb(26.3% 49.4% 93.7% / 0.1)",
+              "default": "rgb(26.275% 49.412% 93.725% / 0.1)",
               "hover": "#D0DFFB",
               "active": "#A1BEF7"
             }
@@ -186,15 +186,15 @@
           "background": {
             "main": {
               "default": "#FFC029",
-              "hover": "lch(81.7 41.9 82.1)",
-              "active": "lch(76.2 39.3 82.1)",
-              "disabled": "lch(81.3 0 0)"
+              "hover": "lch(81.739 41.934 82.081)",
+              "active": "lch(81.739 41.934 82.081)",
+              "disabled": "lch(81.274 0 none)"
             },
             "action": {
-              "default": "lch(77.8 74.1 79.3)",
-              "hover": "lch(77.6 39.8 82.1)",
-              "active": "lch(69.7 36 82.1)",
-              "disabled": "lch(74.4 0 0)"
+              "default": "lch(77.835 74.079 79.258)",
+              "hover": "lch(77.652 39.837 82.081)",
+              "active": "lch(74.791 38.37 82.081)",
+              "disabled": "lch(74.366 0 none)"
             }
           },
           "text": {
@@ -210,31 +210,31 @@
             "disabled": "rgba(0,0,0,0)"
           },
           "divide": {
-            "default": "lch(68.1 64.8 79.3)",
-            "hover": "lch(71.5 36.7 82.1)",
-            "active": "lch(66.7 34.4 82.1)",
-            "disabled": "lch(71.1 0 0)"
+            "default": "lch(68.106 64.819 79.258)",
+            "hover": "lch(71.522 36.692 82.081)",
+            "active": "lch(71.522 36.692 82.081)",
+            "disabled": "lch(71.115 0 none)"
           }
         },
         "secondary": {
           "divide": {
-            "default": "lch(92 1.05 266)",
-            "hover": "lch(79.8 35.8 82.1)",
-            "active": "lch(69.6 66.3 79.3)",
-            "disabled": "lch(75.5 0 0)"
+            "default": "lch(92.029 1.0472 265.86)",
+            "hover": "lch(79.887 35.853 82.081)",
+            "active": "lch(69.642 66.281 79.258)",
+            "disabled": "lch(75.5 0 none)"
           },
           "background": {
             "main": {
               "default": "rgba(0,0,0,0)",
               "hover": "#f6f7fa",
-              "active": "lch(95.3 1.54 272)",
+              "active": "lch(95.274 1.5364 271.98)",
               "disabled": "#dfdfdf"
             },
             "action": {
               "default": "#f6f7fa",
-              "hover": "lch(94.8 1.53 272)",
-              "active": "lch(92.9 1.5 272)",
-              "disabled": "lch(77.2 0 0)"
+              "hover": "lch(94.788 1.5286 271.98)",
+              "active": "lch(92.892 1.498 271.98)",
+              "disabled": "lch(77.21 0 none)"
             }
           },
           "text": {
@@ -246,7 +246,7 @@
           "stroke": {
             "default": "#e6e7e9",
             "hover": "#e6e7e9",
-            "active": "rgb(81.2% 82.3% 83.8%)",
+            "active": "#cccfd3",
             "disabled": "rgba(0,0,0,0)"
           }
         }
@@ -265,9 +265,9 @@
           "background": {
             "default": "rgba(0,0,0,0)",
             "hover": "#f6f7fa",
-            "active": "lch(97.3 1.53 272)",
+            "active": "lch(97.288 1.5286 271.98)",
             "disabled": "#dfdfdf",
-            "disabled-active": "lch(71.1 0 0)",
+            "disabled-active": "lch(71.059 0 none)",
             "panel": "rgba(0,0,0,0)"
           },
           "text": {
@@ -297,7 +297,7 @@
           "background": {
             "default": "rgba(0,0,0,0)",
             "hover": "#f6f7fa",
-            "active": "lch(95.3 1.54 272)"
+            "active": "lch(95.274 1.5364 271.98)"
           },
           "stroke": {
             "default": "#e6e7e9",
@@ -328,13 +328,13 @@
           "background": {
             "default": "#ffffff",
             "hover": "#f6f7fa",
-            "active": "rgb(91.6% 92% 93.1%)",
+            "active": "#f6f7fa",
             "disabled": "#dfdfdf"
           },
           "title": {
-            "default": "lch(10.2 1.39 305)",
-            "hover": "lch(10.2 1.39 305)",
-            "active": "lch(10.2 1.39 305)",
+            "default": "lch(10.195 1.3883 305.43)",
+            "hover": "lch(10.195 1.3883 305.43)",
+            "active": "lch(10.195 1.3883 305.43)",
             "disabled": "#a0a0a0"
           },
           "description": {
@@ -361,9 +361,9 @@
               "disabled": "#dfdfdf"
             },
             "title": {
-              "default": "lch(10.2 1.39 305)",
-              "hover": "lch(10.2 1.39 305)",
-              "active": "lch(10.2 1.39 305)",
+              "default": "lch(10.195 1.3883 305.43)",
+              "hover": "lch(10.195 1.3883 305.43)",
+              "active": "lch(10.195 1.3883 305.43)",
               "disabled": "#a0a0a0"
             },
             "description": {
@@ -389,9 +389,9 @@
               "disabled": "#dfdfdf"
             },
             "title": {
-              "default": "lch(10.2 1.39 305)",
-              "hover": "lch(10.2 1.39 305)",
-              "active": "lch(10.2 1.39 305)",
+              "default": "lch(10.195 1.3883 305.43)",
+              "hover": "lch(10.195 1.3883 305.43)",
+              "active": "lch(10.195 1.3883 305.43)",
               "disabled": "#a0a0a0"
             },
             "description": {
@@ -422,9 +422,9 @@
             "active": "#161517"
           },
           "background": {
-            "default": "rgb(96.5% 96.9% 98% / 0.9)",
-            "hover": "rgb(90.4% 90.8% 91.6%)",
-            "active": "lch(89.3 1.07 266)"
+            "default": "#f6f7fa",
+            "hover": "#e6e7e9",
+            "active": "lch(89.319 1.0747 265.86)"
           },
           "stroke": {
             "default": "linear-gradient(174deg, #ABABAB 7.59%, #D4D4D4 30.01%)",
@@ -463,7 +463,7 @@
       },
       "color": {
         "title": {
-          "default": "lch(10.2 1.39 305)"
+          "default": "lch(10.195 1.3883 305.43)"
         },
         "daytitle": {
           "default": "#696e79"
@@ -473,14 +473,24 @@
     "dialog": {
       "typography": {
         "title": {
-          "default": "600 1rem/1.5 \"Inter\", '\"SF Pro Display\"', -apple-system, BlinkMacSystemFont, '\"Segoe UI\"', Roboto, Oxygen, Ubuntu, Cantarell, '\"Open Sans\"', '\"Helvetica Neue\"', sans-serif;"
+          "default": {
+            "fontFamily": "\"Inter\",\"SF Pro Display\",-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen,Ubuntu, Cantarell,\"Open Sans\",\"Helvetica Neue\",sans-serif;",
+            "fontWeight": "600",
+            "lineHeight": 1.5,
+            "fontSize": "1rem"
+          }
         }
       }
     },
     "flyout": {
       "typography": {
         "title": {
-          "default": "600 1rem/1.5 \"Inter\", '\"SF Pro Display\"', -apple-system, BlinkMacSystemFont, '\"Segoe UI\"', Roboto, Oxygen, Ubuntu, Cantarell, '\"Open Sans\"', '\"Helvetica Neue\"', sans-serif;"
+          "default": {
+            "fontFamily": "\"Inter\",\"SF Pro Display\",-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen,Ubuntu, Cantarell,\"Open Sans\",\"Helvetica Neue\",sans-serif;",
+            "fontWeight": "600",
+            "lineHeight": 1.5,
+            "fontSize": "1rem"
+          }
         }
       },
       "color": {
@@ -488,13 +498,13 @@
           "default": "#ffffff"
         },
         "title": {
-          "default": "lch(10.2 1.39 305)"
+          "default": "lch(10.195 1.3883 305.43)"
         },
         "description": {
           "default": "#696e79"
         },
         "opaqueBackground": {
-          "default": "lch(6.77 0 0 / 0.45)"
+          "default": "lch(6.7738 0 none / 0.45)"
         },
         "stroke": {
           "default": "#e6e7e9"
@@ -507,8 +517,8 @@
           "color": {
             "background": {
               "default": "#f6f7fa",
-              "selectIndirect": "lch(99.6 3.76 101)",
-              "selectDirect": "lch(97.5 12 97.4)"
+              "selectIndirect": "lch(99.646 3.7554 100.74)",
+              "selectDirect": "#FFFBE3"
             },
             "title": {
               "default": "#696e79",
@@ -516,9 +526,9 @@
               "selectDirect": "#161517"
             },
             "stroke": {
-              "default": "lch(89.3 1.07 266)",
-              "selectIndirect": "lch(92.8 31.1 85.9)",
-              "selectDirect": "lch(90.9 28.1 85.9)"
+              "default": "lch(89.319 1.0747 265.86)",
+              "selectIndirect": "lch(92.813 31.077 85.858)",
+              "selectDirect": "lch(90.873 28.079 85.87)"
             }
           }
         }
@@ -528,16 +538,16 @@
           "color": {
             "background": {
               "default": "#ffffff",
-              "selectIndirect": "lch(99.4 8.48 102 / 0.2)",
-              "selectDirect": "lch(99.4 8.48 102 / 0.2)"
+              "selectIndirect": "lch(99.391 8.4761 102.22 / 0.2)",
+              "selectDirect": "lch(99.391 8.4761 102.22 / 0.2)"
             },
             "stroke": {
               "default": "#e6e7e9",
-              "selectIndirect": "lch(74.1 25.6 85.9)",
+              "selectIndirect": "#FFE7AC",
               "selectDirect": "#FFC029"
             },
             "text": {
-              "default": "lch(7.17 1.44 305)",
+              "default": "lch(7.1704 1.4351 305.43)",
               "selectIndirect": "#161517",
               "selectDirect": "#161517"
             }
@@ -573,8 +583,8 @@
           "item": {
             "color": {
               "background": {
-                "active": "lch(38.8 16.8 296 / 0.6)",
-                "hover": "lch(40.9 16.2 296)",
+                "active": "lch(38.803 16.766 295.75 / 0.6)",
+                "hover": "lch(40.945 16.179 295.75)",
                 "default": "rgba(0,0,0,0)"
               },
               "text": {
@@ -615,7 +625,7 @@
               },
               "background": {
                 "default": "rgba(0,0,0,0)",
-                "hover": "lch(40.9 16.2 296)",
+                "hover": "lch(40.945 16.179 295.75)",
                 "active": "rgba(0,0,0,0)"
               }
             }
@@ -642,8 +652,8 @@
           "item": {
             "color": {
               "background": {
-                "active": "lch(91.6 1.1 266 / 0.6)",
-                "hover": "lch(91.6 1.1 266 / 0.6)",
+                "active": "#e6e7e9",
+                "hover": "lch(91.609 1.1023 265.86 / 0.6)",
                 "default": "rgba(0,0,0,0)"
               },
               "text": {
@@ -666,7 +676,7 @@
               },
               "background": {
                 "default": "rgba(0,0,0,0)",
-                "hover": "lch(91.6 1.1 266 / 0.6)",
+                "hover": "lch(91.609 1.1023 265.86 / 0.6)",
                 "active": "rgba(0,0,0,0)"
               }
             }
@@ -833,7 +843,7 @@
           "danger": "#c10000"
         },
         "title": {
-          "default": "lch(10.2 1.39 305)",
+          "default": "lch(10.195 1.3883 305.43)",
           "muted": "#696e79"
         }
       }
@@ -875,7 +885,7 @@
         },
         "label": {
           "default": "#161517",
-          "deselected": "lch(6.94 1.44 305 / 0.3)"
+          "deselected": "lch(6.9377 1.4387 305.43 / 0.3)"
         }
       }
     },
@@ -883,11 +893,11 @@
       "color": {
         "background": {
           "default": "#FBFCFF",
-          "hover": "lch(99 1.55 272)"
+          "hover": "#FBFCFF"
         },
         "stroke": {
           "default": "#e6e7e9",
-          "hover": "rgb(81% 82.1% 83.6%)"
+          "hover": "#cccfd3"
         }
       }
     }
@@ -923,7 +933,7 @@
         "default": "#C78F0F"
       },
       "shadow": {
-        "default": "lch(6.77 0 0 / 0.15)"
+        "default": "lch(6.7738 0 none / 0.15)"
       },
       "feedback": {
         "info": {
@@ -977,7 +987,7 @@
         },
         "label": {
           "default": "#161517",
-          "deselected": "lch(6.94 1.44 305 / 0.3)"
+          "deselected": "lch(6.9377 1.4387 305.43 / 0.3)"
         }
       },
       "iconButton": {

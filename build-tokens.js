@@ -1,8 +1,8 @@
 import _ from "lodash";
-import { registerTransforms, transforms } from "@tokens-studio/sd-transforms";
+import { register } from "@tokens-studio/sd-transforms";
 import StyleDictionary from "style-dictionary";
 
-registerTransforms(StyleDictionary);
+register(StyleDictionary);
 const themes = ["classic", "dark", "light"];
 
 function generateThemeFromDictionary(dictionary, valueFunc = (value) => value) {
@@ -16,7 +16,7 @@ function generateThemeFromDictionary(dictionary, valueFunc = (value) => value) {
 StyleDictionary.registerTransform({
   type: "name",
   name: "name/cti/dot",
-  transformer: (token, options) => {
+  transform: (token, options) => {
     if (options.prefix && options.prefix.length) {
       return [options.prefix].concat(token.path).join(".");
     } else {
@@ -27,7 +27,7 @@ StyleDictionary.registerTransform({
 
 StyleDictionary.registerFormat({
   name: "ThemeFormat",
-  formatter: function ({ dictionary, platform, options, file }) {
+  format: function ({ dictionary, platform, options, file }) {
     const theme = generateThemeFromDictionary(dictionary);
     return JSON.stringify(theme, null, 2);
   }
@@ -35,7 +35,7 @@ StyleDictionary.registerFormat({
 
 StyleDictionary.registerFormat({
   name: "TypescriptFormat",
-  formatter: function ({ dictionary, platform, options, file }) {
+  format: function ({ dictionary, platform, options, file }) {
     const theme = generateThemeFromDictionary(dictionary, (value) => typeof value);
 
     return `
@@ -44,11 +44,11 @@ StyleDictionary.registerFormat({
   }
 });
 
-StyleDictionary.extend({
+const sd = new StyleDictionary({
   source: [`./tokens/**/!(${themes.join("|*.")}).json`],
   platforms: {
     css: {
-      transforms: [...transforms, "name/cti/kebab"],
+      transforms: ["ts/descriptionToComment", "ts/resolveMath", "ts/size/px", "ts/opacity", "ts/size/lineheight", "ts/typography/fontWeight", "ts/color/modifiers", "ts/color/css/hexrgba", "ts/size/css/letterspacing", "ts/shadow/innerShadow", "name/kebab"],
       buildPath: "build/css/",
       files: [
         {
@@ -61,7 +61,7 @@ StyleDictionary.extend({
       ],
     },
     js: {
-      transforms: [...transforms, "name/cti/dot"],
+      transforms: ["ts/descriptionToComment", "ts/resolveMath", "ts/size/px", "ts/opacity", "ts/size/lineheight", "ts/typography/fontWeight", "ts/color/modifiers", "ts/color/css/hexrgba", "ts/size/css/letterspacing", "ts/shadow/innerShadow", "name/cti/dot"],
       buildPath: "src/styles/",
       files: [
         {
@@ -74,7 +74,7 @@ StyleDictionary.extend({
       ],
     },
     ts: {
-      transforms: [...transforms, "name/cti/dot"],
+      transforms: ["ts/descriptionToComment", "ts/resolveMath", "ts/size/px", "ts/opacity", "ts/size/lineheight", "ts/typography/fontWeight", "ts/color/modifiers", "ts/color/css/hexrgba", "ts/size/css/letterspacing", "ts/shadow/innerShadow", "name/cti/dot"],
       buildPath: "src/styles/",
       files: [
         {
@@ -87,17 +87,18 @@ StyleDictionary.extend({
       ],
     },
   },
-})
-  .cleanAllPlatforms()
-  .buildAllPlatforms();
+});
 
-themes.forEach(theme =>
-  StyleDictionary.extend({
+await sd.cleanAllPlatforms();
+await sd.buildAllPlatforms();
+
+themes.forEach(async theme => {
+  const themeSd = new StyleDictionary({
     include: [`./tokens/**/!(${themes.join("|*.")}).json`],
     source: [`./tokens/**/${theme}.json`],
     platforms: {
       css: {
-        transforms: [...transforms, "name/cti/kebab"],
+        transforms: ["ts/descriptionToComment", "ts/resolveMath", "ts/size/px", "ts/opacity", "ts/size/lineheight", "ts/typography/fontWeight", "ts/color/modifiers", "ts/color/css/hexrgba", "ts/size/css/letterspacing", "ts/shadow/innerShadow", "name/kebab"],
         buildPath: "build/css/",
         files: [
           {
@@ -111,7 +112,7 @@ themes.forEach(theme =>
         ],
       },
       js: {
-        transforms: [...transforms, "name/cti/dot"],
+        transforms: ["ts/descriptionToComment", "ts/resolveMath", "ts/size/px", "ts/opacity", "ts/size/lineheight", "ts/typography/fontWeight", "ts/color/modifiers", "ts/color/css/hexrgba", "ts/size/css/letterspacing", "ts/shadow/innerShadow", "name/cti/dot"],
         buildPath: "src/styles/",
         files: [
           {
@@ -125,7 +126,8 @@ themes.forEach(theme =>
         ],
       },
     },
-  })
-    .cleanAllPlatforms()
-    .buildAllPlatforms()
-);
+  });
+  
+  await themeSd.cleanAllPlatforms();
+  await themeSd.buildAllPlatforms();
+});
